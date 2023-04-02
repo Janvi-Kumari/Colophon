@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    margin: 40px;
+}
+
+.container {
+    border: 1px solid #f1f1f1;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 1400px;
+    height: 972px;
+}
+
+
+
+/* navigation */
+
+.navbar {
+    margin: 30px
+}
+
+.navbar ul li:first-child {
+    margin-right: 340px;
+    margin-left: 300px;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #2D3748;
+}
+
+
+.colophon {
+    margin-left: 330px;
+}
+
+.heading {
+    font-family: 'Inter', sans-serif;
+    color: #2D3748;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 82px;
+    margin-bottom: 12px;
+}
+
+.text1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2D3748;
+    margin-bottom: 12px;
+
+}
+
+.text2 {
+    width: 720px;
+    height: 42px;
+}
+
+.blue {
+    color: #805AD5;
+}
+
+.text3 {
+    width: 720px;
+    height: 63px;
+}
+
+
+/* footer */
+
+
+.footer-border {
+    border-top: 1px solid #EDF2F7;
+    width: 760px;
+    margin-top: 390px;
+    margin-left: 320px;
+}
+
+
+.footer {
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+.footer ul {
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    color: #718096;
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 14px;
+
+}
+
+.l1 {
+    width: 64px;
+    height: 129px;
+    margin-left: 250px;
+    margin-top: -40px;
+
+}
+
+.l2 {
+    width: 61px;
+    height: 129px;
+    margin-left: 550px;
+    margin-top: -130px;
+}
+
+.l3 {
+    width: 74px;
+    height: 129px;
+    margin-left: 950px;
+    margin-top: -130px;
+}
+
+.l-footer {
+    margin-left: 250px;
+    margin-top: 24px;
+    font-size: 14px;
+    color: #718096;
+    line-height: 14px;
+}
